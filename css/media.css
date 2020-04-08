@@ -1,9 +1,11 @@
-@media only screen and (max-width: 760px) {
+
+@media only screen and (max-width: 768px) {
     header .container {
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
     }
+
 }
 
 @media only screen and (max-width: 520px) {

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Lobster 1.3';
+    src: url("../fonts/Lobster13.eot");
+    src: url("../fonts/Lobster13.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lobster13.woff2") format("woff2"), url("../fonts/Lobster13.woff") format("woff"), url("../fonts/Lobster13.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

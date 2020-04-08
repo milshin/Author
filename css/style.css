@@ -1,0 +1,93 @@
+@import url(fonts.css);
+@import url(munu-js.css);
+@import url(media.css);
+@import url(slider.css);
+@import url(../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css);
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box; }
+
+/*.........................scss.........................*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; } }
+  .container .logo {
+    font-family: 'Lobster 1.3', serif;
+    color: #49cbcd;
+    font-size: 43px;
+    line-height: 100px; }
+
+article {
+  background-color: #f1f1f1;
+  padding: 184px 0 101px 0; }
+  article .list {
+    max-width: 368px;
+    width: 100%; }
+    @media screen and (max-width: 1200px) {
+      article .list {
+        width: 300px; } }
+    @media screen and (max-width: 992px) {
+      article .list {
+        width: 260px; } }
+    @media screen and (max-width: 768px) {
+      article .list {
+        width: 368px;
+        margin: 20px auto; } }
+    @media screen and (max-width: 414px) {
+      article .list {
+        width: 300px; } }
+    article .list ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      article .list ul li {
+        font-family: "OpenSans", serif;
+        font-size: 14px;
+        color: #8c9299;
+        line-height: 46px;
+        background-color: #fff;
+        border-top: solid 1px #ecf0f1; }
+        article .list ul li a {
+          font-family: "OpenSans", serif;
+          font-weight: 600;
+          color: #fff;
+          background-color: #788492;
+          padding: 12px 50px;
+          border-radius: 3px;
+          cursor: pointer; }
+        article .list ul li:first-child {
+          font-size: 26px;
+          font-family: "OpenSans", serif;
+          font-weight: 400;
+          color: #fff;
+          background-color: #485460;
+          line-height: 75px;
+          border-top-right-radius: 2px;
+          border-top-left-radius: 2px; }
+        article .list ul li:nth-child(2) {
+          background-color: #f8f9fb;
+          line-height: 68px;
+          font-family: "OpenSans", serif;
+          font-size: 20px;
+          color: #485460; }
+        article .list ul li:last-child {
+          background-color: #f8f9fb;
+          padding: 29px 0;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px; }
+    article .list:nth-child(2) li:first-child {
+      background-color: #49cbcd; }
+    article .list:nth-child(2) a {
+      background-color: #49cbcd; }
+
+/*# sourceMappingURL=style.css.map */
